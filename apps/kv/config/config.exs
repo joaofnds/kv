@@ -28,3 +28,5 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env()}.exs"
+
+config :kv, :routing_table, [{?a..?m, :"first@127.0.0.1"}, {?n..?z, :"second@127.0.0.1"}]
